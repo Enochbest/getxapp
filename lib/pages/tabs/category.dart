@@ -26,6 +26,13 @@ class _CategoryPageState extends State<CategoryPage> {
               Navigator.pushNamed(context, "/obsclassdata");
             }, child: const Text('自定义类数据响应式')),
             const SizedBox(height: 40,),
+            ElevatedButton(onPressed: (){
+              Navigator.pushNamed(context, "/sharedata_pagea");
+            }, child: const Text('数据共享页面1')),
+
+            ElevatedButton(onPressed: (){
+              Navigator.pushNamed(context, "/searchgetview");
+            }, child: const Text('GetView页面Ui业务分离')),
           ],
         )
     );
